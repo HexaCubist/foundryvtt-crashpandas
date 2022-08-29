@@ -2,13 +2,13 @@
 	"name": "crash-pandas",
 	"title": "Crash Pandas",
 	"description": "You're a bunch of raccoons, all trying to drive the same car, looking to make their names in the dangerous world of LA street racing.",
-	"version": 1.5,
+	"version": 1.6,
 	"templateVersion": 2.1,
 	"minimumCoreVersion": "0.6.0",
 	"compatibleCoreVersion": "0.8.9",
 	"author": "HexaCubist",
-	"esmodules": [ "module/main.js" ],
-	"styles": [ "styles/main.css" ],
+	"esmodules": [ "module/main.js?v=" ],
+	"styles": [ "styles/main.css?v=1.6" ],
 	"packs": [],
 	"languages": [
 		{
@@ -19,6 +19,6 @@
 	],
 	"url": "https://github.com/HexaCubist/foundryvtt-crashpandas/",
 	"manifest": "https://raw.githubusercontent.com/HexaCubist/foundryvtt-crashpandas/master/system.json",
-	"download": "https://github.com/HexaCubist/foundryvtt-crashpandas/archive/v1.5.zip",
+	"download": "https://github.com/HexaCubist/foundryvtt-crashpandas/archive/v1.6.zip",
 	"license": "LICENSE.txt"
 }
