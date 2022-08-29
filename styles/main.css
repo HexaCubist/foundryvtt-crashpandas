@@ -150,9 +150,9 @@ input[type="datetime-local"] {
 .honeyheist .sheet-panel #stat-panel {
   height: 100px;
   display: grid;
-  grid-template-columns: 100px 1fr 1fr;
+  grid-template-columns: 100px 1fr 1fr 1fr 1fr;
   grid-template-rows: 40px 1fr;
-  grid-template-areas: "portrait name name" "portrait bear criminal";
+  grid-template-areas: "portrait name name" "portrait ALACRITY CHUTZPAH FEROCIOUSNESS ROTUNDITY";
   gap: 10px;
 }
 .honeyheist .sheet-panel #stat-panel .profile-img {
@@ -179,11 +179,17 @@ input[type="datetime-local"] {
   grid-template-areas: "title title title icon" "value die dice .";
   align-items: center;
 }
-.honeyheist .sheet-panel #stat-panel #stat-bear {
-  grid-area: bear;
+.honeyheist .sheet-panel #stat-panel #stat-ALACRITY {
+  grid-area: ALACRITY;
 }
-.honeyheist .sheet-panel #stat-panel #stat-criminal {
-  grid-area: criminal;
+.honeyheist .sheet-panel #stat-panel #stat-CHUTZPAH {
+  grid-area: CHUTZPAH;
+}
+.honeyheist .sheet-panel #stat-panel #stat-FEROCIOUSNESS {
+  grid-area: FEROCIOUSNESS;
+}
+.honeyheist .sheet-panel #stat-panel #stat-ROTUNDITY {
+  grid-area: ROTUNDITY;
 }
 .honeyheist .sheet-panel #stat-panel .stat-title {
   grid-area: title;
