@@ -70,13 +70,11 @@ export class HoneyHeistActorSheet extends ActorSheet {
         this.actor.getRollData()
       ).evaluate({ async: false }); // avoid deprecation warning, backwards compatible
 
-      if (!isEnd) {
-        roll.toMessage({
-          user: game.user.id, // avoid deprecation warning, backwards compatible
-          speaker: ChatMessage.getSpeaker({ actor: this.actor }),
-          flavor: "",
-        });
-      }
+      roll.toMessage({
+        user: game.user.id, // avoid deprecation warning, backwards compatible
+        speaker: ChatMessage.getSpeaker({ actor: this.actor }),
+        flavor: "",
+      });
     });
   }
 }
