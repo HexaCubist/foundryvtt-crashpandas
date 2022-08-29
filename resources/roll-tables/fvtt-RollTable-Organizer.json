@@ -3,8 +3,8 @@
   "sort": 100001,
   "flags": {
     "exportSource": {
-      "world": "test-honey-heist",
-      "system": "honey-heist",
+      "world": "test-crash-pandas",
+      "system": "crash-pandas",
       "coreVersion": "0.6.6",
       "systemVersion": 0.1
     }

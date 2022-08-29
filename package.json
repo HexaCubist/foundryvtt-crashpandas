@@ -1,7 +1,7 @@
 {
-  "name": "honey-heist",
+  "name": "crash-pandas",
   "version": "1.0.0",
-  "description": "CSS compiler for the Honey Heist system",
+  "description": "CSS compiler for the Crash Pandas system",
   "scripts": {
     "css": "gulp css",
     "watch": "gulp",
